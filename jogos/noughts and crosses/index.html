@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noughts and Crosses</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="noughtsandcrosses.png" type="image/x-icon">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Noughts and Crosses</h1>
+        <table class="jogo" border="2">
+            <tr>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+            <tr>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+            <tr>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+        </table>
+        <button onclick="reiniciar()">Restart Game</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

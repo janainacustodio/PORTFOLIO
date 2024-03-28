@@ -1,0 +1,57 @@
+h1{
+    padding: 10px;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+}
+.grid{
+    margin-top: 20px;
+    text-align: center;
+    width: 560px;
+    height: 300px;
+    border: solid black 1px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(146, 167, 69, 0.055);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.block{
+    width: 100px;
+    height: 20px;
+    background: linear-gradient(to right, brown,  rgb(62, 194, 255));
+    position: absolute;
+    border-radius: 10px;
+}
+.user{
+    width: 100px;
+    height: 20px;
+    background-color: brown;
+    position: absolute;
+    border-radius: 10px;
+}
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(55, 55, 219);
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 1000;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(37, 15, 235), rgb(223, 186, 117));
+}
+button{
+    font-size: 30px;
+    display: block;
+    margin: 0 auto;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+}
+   
