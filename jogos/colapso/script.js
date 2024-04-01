@@ -112,8 +112,8 @@ function drawBall(){
 
 //Moving ball
 function moveBall() {
-    ballCurrentPosition[0] += xDirection
-    ballCurrentPosition[1] += yDirection
+    ballCurrentPosition[0] += xDirection 
+    ballCurrentPosition[1] += yDirection 
     drawBall()
     checkForCollisions()
 }
