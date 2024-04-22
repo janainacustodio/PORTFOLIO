@@ -1,0 +1,36 @@
+body {
+    padding: auto;
+    text-align: inline-block;
+  }
+  #survey-form {
+   margin: 15px;
+  }
+  hr {
+    background-color:blue;
+    padding:2px;
+  
+  }
+  
+  #title{
+    font-family: "roboto", serif;
+    font-size:1,5em;
+  }
+  h2{
+    font-size:1em;
+  }
+  #number-label{
+    font-weight: bold;
+  }
+  #submit {
+    text-align:rigth;
+    width:50%;
+    margin-bottom:5px;
+  }
+  textarea{
+    text-align:left;
+    width:50%;
+  }
+  footer{
+    font-weight:bold;
+    padding-top:5px;
+  }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="styles.css" rel="stylesheet" />
+  <title>Formulário</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <form id="survey-form">
+    <h1 id="title">Pesquisa sobre carreiras </h1>
+    <hr>
+    <p id="description"> Obrigado por tirar um pouco do seu tempo para participar dessa pesquisa.</p>
+
+    <label id="name-label"><input
+id="name"
+type="text" required
+placeholder="Seu nome">
+</label>
+
+<label id="email-label">
+<input
+id="email"
+type="email"
+required
+placeholder="Digite seu E-mail">
+</label>
+
+<label
+id="number-label"
+>Idade:
+<input 
+id="number"
+type="number" 
+required
+placeholder="Idade"
+min="1"
+max="3">
+</label>
+<h2>Sexo:</h2>
+<select id="dropdown">
+  <option>Feminino</option>
+  <option>Masculino</option>
+</select>
+<h2>Área de atuação:</h2>
+<select id="dropdown">
+  <option>Front-end</option>
+  <option>Back-end</option>
+  <option>Full-Stack</option>
+</select>
+<h2>Tipo de Trabalho:</h2>
+<input
+type="radio"
+name="work-type"
+value="Autonomo">Autônomo
+<input
+type="radio"
+name="work-type"
+value="CLT">CLT
+
+<h2>Está Satisfeito com sua remuneração?</h2>
+<input 
+type="checkbox"
+name=""
+value="Sim">Sim, estou satisfeito(a).
+<input
+value="Não"
+type="checkbox">Não estou satistfeito(a).
+
+<h2>Adicione um breve comentário sobre suas experiências:</h2>
+<textarea id="comment" row="5" col="25">
+  Add a comment...
+</textarea>
+<input
+id="submit"
+type="submit">
+<hr>
+  </form>
+<footer>
+  <p>By Janaína Custódio</p>
+</footer>
+</body>
+
+</html>
